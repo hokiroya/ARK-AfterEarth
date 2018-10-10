@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "",
+	"Category": "Samples",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ShooterGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ShooterGameLoadingScreen",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TrueSkyPlugin",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"LinuxNoEditor",
+		"MacNoEditor",
+		"XboxOne"
+	],
+	"EpicSampleNameHash": "3868556100"
+}
